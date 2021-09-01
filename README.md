@@ -9,7 +9,7 @@ in a Jupyter notebook to construct assignments. See the overall
 documentation and the descriptions of each package for more details.
 
 If you have an example notebook to upload you can try it on binder:
-[]()
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/JupyterPhysSciLab/JPSLInstructor.git/HEAD)
 
 #### Installation
 1. Install python3+ on your system, if you have not. See 
