@@ -18,7 +18,7 @@ setuptools.setup(
     install_requires=[
         # 'python>=3.6',
         'jupyter>=1.0.0',
-        'jupyter-instructortools>=0.5.4',
+        'jupyter-instructortools>=0.5.5',
         'jupyterPiDAQ>=0.7.3',
         'Algebra_with_SymPy>=0.9.0',
     ],
