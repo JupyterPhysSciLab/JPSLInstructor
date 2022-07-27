@@ -5,7 +5,7 @@ with open("README.md", "r") as f:
 
 setuptools.setup(
     name="JPSLInstructor",
-    version="0.6.0",
+    version="0.7.0",
     description="Install all modules for Jupyter Physical Science Lab",
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -19,7 +19,7 @@ setuptools.setup(
         # 'python>=3.6',
         'jupyter>=1.0.0',
         'jupyter-instructortools>=0.6.0',
-        'jupyterPiDAQ>=0.7.6',
+        'jupyterPiDAQ>=0.7.8',
         'Algebra_with_SymPy>=0.9.1',
     ],
     classifiers=[
