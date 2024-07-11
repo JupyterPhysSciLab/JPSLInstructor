@@ -5,7 +5,7 @@ with open("README.md", "r") as f:
 
 setuptools.setup(
     name="JPSLInstructor",
-    version="0.7.0",
+    version="0.8.0",
     description="Install all modules for Jupyter Physical Science Lab",
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -16,11 +16,13 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     include_package_data=True,
     install_requires=[
-        # 'python>=3.6',
-        'jupyter>=1.0.0',
-        'jupyter-instructortools>=0.6.0',
-        'jupyterPiDAQ>=0.7.8',
-        'Algebra_with_SymPy>=0.9.1',
+        'jupyterlab>=4.0.0,<5',
+        'notebook>=7.0.0,<8',
+        'nbclassic',
+        'jupyter-instructortools>=0.7.0',
+        'JPSL-Tools-Menu>=0.2.0',
+        'jupyterPiDAQ>=0.8.2',
+        'Algebra_with_SymPy>=1.0.0',
     ],
     classifiers=[
         'Development Status :: 4 - Beta',
